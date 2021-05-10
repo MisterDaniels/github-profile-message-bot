@@ -1,0 +1,11 @@
+# Packages modules
+node_modules
+
+# Package manager locks
+*-lock.json
+
+# System miscs
+.DS_Store
+
+# Environment variables
+.env

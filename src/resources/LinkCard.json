@@ -1,0 +1,53 @@
+{
+	"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+	"type": "AdaptiveCard",
+	"version": "1.0",
+	"body": [
+		{
+			"type": "ColumnSet",
+			"columns": [
+				{
+					"type": "Column",
+					"width": 2,
+					"items": [
+						{
+							"type": "TextBlock",
+							"text": "Github"
+						},
+						{
+							"type": "TextBlock",
+							"text": "github-profile-message-bot",
+							"weight": "bolder",
+							"size": "extraLarge",
+							"spacing": "none"
+						},
+						{
+							"type": "TextBlock",
+							"text": "Bot ★★★★★ (5) estrelas · 🤖",
+							"isSubtle": true,
+							"spacing": "none"
+						}
+					]
+				},
+				{
+					"type": "Column",
+					"width": 1,
+					"items": [
+						{
+							"type": "Image",
+							"url": "https://avatars.githubusercontent.com/u/21345012?v=4",
+							"size": "auto"
+						}
+					]
+				}
+			]
+		}
+	],
+	"actions": [
+		{
+			"type": "Action.OpenUrl",
+			"title": "Acessar",
+			"url": "https://github.com/MisterDaniels/github-profile-message-bot"
+		}
+	]
+}
